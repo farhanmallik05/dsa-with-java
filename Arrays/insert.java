@@ -4,9 +4,11 @@ import java.util.Scanner;
 public class insert {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] arr = {1, 2, 3, 4, 5};
+        int[] arr = {10, 20, 30, 40, 50};
         int n = arr.length;
+        System.out.println("Enter the element to be inserted:");
         int x = sc.nextInt();
+        System.out.println("Enter the position where the element is to be inserted:");
         int pos = sc.nextInt();
 
         int[] newArr = new int[n + 1];
